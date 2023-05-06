@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 // import TestComp from './lifecycle/TestComp';
 import CalculateComp from './hook/CalculateComp';
 import MyButton from './eventhandler/MyButton';
+import Index from './header/Index';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -20,7 +21,7 @@ import MyButton from './eventhandler/MyButton';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MyButton />
+    <Index />
   </React.StrictMode>
 );
 
