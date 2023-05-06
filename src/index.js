@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 // import MovieList from './movies/MovieList';
 // import TestComp from './lifecycle/TestComp';
 import CalculateComp from './hook/CalculateComp';
+import MyButton from './eventhandler/MyButton';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -19,7 +20,7 @@ import CalculateComp from './hook/CalculateComp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CalculateComp />
+    <MyButton />
   </React.StrictMode>
 );
 
