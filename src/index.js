@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 // import Course from './jsx/Course';
 // import Time from './element/Time';
 import MovieList from './movies/MovieList';
+import TestComp from './lifecycle/TestComp';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -17,7 +18,7 @@ import MovieList from './movies/MovieList';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MovieList />
+    <TestComp />
   </React.StrictMode>
 );
 
