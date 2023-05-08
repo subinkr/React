@@ -14,7 +14,7 @@ function Index(props) {
     <div>
       <Header isLoggedIn = {isLoggedIn} onSignIn = {signIn} onSignOut = {signOut}/>
     </div>
-  )
+  );
 }
 
-export default Index
+export default Index;
